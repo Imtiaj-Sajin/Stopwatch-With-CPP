@@ -51,7 +51,8 @@ if(x<=33){
         
 }
 }
-
+system("cls");
+Sleep(1);
 int main(){
 
   stw(h,m,s);
