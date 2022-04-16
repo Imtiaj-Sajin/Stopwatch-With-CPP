@@ -1,8 +1,6 @@
 //Digital Stopwatch//
 
 
-#include<bits/stdc++.h>
-using namespace std;
 
 int main(){
   int h=0, m=0, s=0;
