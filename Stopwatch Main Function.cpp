@@ -1,7 +1,7 @@
 //Digital Stopwatch//
 #include<iostream>
 using namespace std;
-
+#include<unistd.h>
 #include<conio.h>
 
 int h=0,m=0,s=0;
@@ -18,6 +18,7 @@ int x=0;
 
 while(!kbhit()){
         
+    system("cls");//Screen_Clear    
 
 cout<<"*******************************************************"<<endl;
 cout<<"\t\t   STOP WATCH"<<endl;
@@ -54,13 +55,13 @@ if(x<=33){
         if(x==6)
             goto level;
 }
-        
+   Sleep(1);//ADDING Time_Delay     
 }
 }
-system("cls");
-Sleep(1);
-int main(){
 
+
+int main(){       
+  start();
   stw(h,m,s);
 
   getch();
