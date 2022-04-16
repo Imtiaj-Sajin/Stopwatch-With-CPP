@@ -1,6 +1,6 @@
     //Stopwatch//
 
-
+int H=0,M=0,S=0;
 
 int start (){
 
