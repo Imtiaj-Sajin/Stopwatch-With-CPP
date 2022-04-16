@@ -37,15 +37,3 @@ sleep(1);
 }
 
 }
-
-
-int main()
-{
-
-start();
-
-stw(h,m,s);
-
-getch();
-
-}
