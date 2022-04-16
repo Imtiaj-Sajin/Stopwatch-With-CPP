@@ -38,6 +38,16 @@ cout<<"  |                                                 |   "<<endl;
 cout<<"         (Click Anywhere To Stop)"<<endl;
 }
 }
+if(x==500){level: x=0;}
+if(x<=33){
+    for(int k=1;k<=x;k++){
+    cout<<"-->> ";}
+
+
+        x++;
+        if(x==6)
+            goto level;
+}
 
 int main(){
 
