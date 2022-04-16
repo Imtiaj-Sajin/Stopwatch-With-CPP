@@ -22,10 +22,12 @@ cout<<"\n\t\t H:M:S";
 
 
 
+if(x==500){level: x=0;}
+if(x<=10){
+for(int k=1;k<=x;k++){
+cout<<">> ";}
 
-
-
-
+    
 x++;
 if(x==6)
 goto level;
