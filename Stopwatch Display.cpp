@@ -12,3 +12,40 @@ cout<<"\n\t\t H:M:S";
 
 -getch();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x++;
+if(x==6)
+goto level;
+}
+sleep(1);
+
+
+
+}
+
+}
+
+
+int main()
+{
+
+start();
+
+stw(h,m,s);
+
+getch();
+
+}
