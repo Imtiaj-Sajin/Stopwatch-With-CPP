@@ -7,6 +7,7 @@ using namespace std;
 int h=0,m=0,s=0;
 int start()//Adding initialization
 {
+        system("color Ec");//added color
 cout<<"\t\tSTOP WATCH"<<endl;
 cout<<"\t(Click any where to start)"<<endl;
 getch();
