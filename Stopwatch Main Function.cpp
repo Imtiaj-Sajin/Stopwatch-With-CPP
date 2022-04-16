@@ -1,5 +1,4 @@
 //Digital Stopwatch//
-//Digital Stopwatch//
 #include<iostream>
 using namespace std;
 
