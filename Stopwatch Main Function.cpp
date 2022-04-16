@@ -55,7 +55,7 @@ if(x<=33){
         if(x==6)
             goto level;
 }
-   Sleep(1);//ADDING Time_Delay     
+   sleep(1);//ADDING Time_Delay     
 }
 }
 
