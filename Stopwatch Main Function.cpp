@@ -5,6 +5,12 @@ using namespace std;
 #include<conio.h>
 
 int h=0,m=0,s=0;
+int start()//Adding initialization
+{
+cout<<"\t\tSTOP WATCH"<<endl;
+cout<<"\t(Click any where to start)"<<endl;
+getch();
+}
 
 void stw(int h,int m,int s)
 {
