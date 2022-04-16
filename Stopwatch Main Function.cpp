@@ -36,8 +36,8 @@ cout<<"  |                                                 |"<<endl;
 cout<<"__|_________________________________________________|___"<<endl;
 cout<<"  |                                                 |   "<<endl;
 cout<<"         (Click Anywhere To Stop)"<<endl;
-}
-}
+
+ //add Annimation
 if(x==500){level: x=0;}
 if(x<=33){
     for(int k=1;k<=x;k++){
@@ -47,6 +47,9 @@ if(x<=33){
         x++;
         if(x==6)
             goto level;
+}
+        
+}
 }
 
 int main(){
