@@ -70,6 +70,7 @@ int main(){
   start();
 
   re:
+        system("cls");
 int h=0,m=0,s=0;
 
   stw(h,m,s);
@@ -83,11 +84,14 @@ else if(w=='n')goto fin;
 else {cout<<"wrong input;type again..";}
 goto res;
 fin:
-cout<<"\n_______________________________________________";
-cout<<"\n|                                             |";
-cout<<"\n|      Thanks for using our stopwatch         |";
-cout<<"\n|                                             |";
-cout<<"\n|_____________________________________________|";
+        system("cls");
+        cout<<endl;
+cout<<"\n\t\t_______________________________________________";
+cout<<"\n\t\t|                                             |";
+cout<<"\n\t\t|      Thanks for using our stopwatch         |";
+cout<<"\n\t\t|                                             |";
+cout<<"\n\t\t|_____________________________________________|";
+getch();
 
 
 }
