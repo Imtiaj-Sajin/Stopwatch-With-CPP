@@ -60,11 +60,34 @@ if(x<=33){
 }
 }
 
+int restart(){
+cout<<"\n\t\twanna restart?\n\t(type y for yes & n for no):";}
+
 
 int main(){       
-  start();
-  stw(h,m,s);
 
+
+  start();
+
+  re:
+int h=0,m=0,s=0;
+
+  stw(h,m,s);
   getch();
+  res:
+restart();
+char w;
+cin>>w;
+if(w=='y')goto re;
+else if(w=='n')goto fin;
+else {cout<<"wrong input;type again..";}
+goto res;
+fin:
+cout<<"\n_______________________________________________";
+cout<<"\n|                                             |";
+cout<<"\n|      Thanks for using our stopwatch         |";
+cout<<"\n|                                             |";
+cout<<"\n|_____________________________________________|";
+
 
 }
