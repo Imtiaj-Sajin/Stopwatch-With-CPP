@@ -81,7 +81,12 @@ char w;
 cin>>w;
 if(w=='y')goto re;
 else if(w=='n')goto fin;
-else {cout<<"wrong input;type again..";}
+else
+    {
+        system("cls");
+cout<<"\n\twrong input;type again..\n";
+}
+
 goto res;
 fin:
         system("cls");
