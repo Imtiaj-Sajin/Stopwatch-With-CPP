@@ -10,7 +10,7 @@ int start()//Adding initialization
         system("color Ec");//added color
 cout<<"\t\tSTOP WATCH"<<endl;
 cout<<"\t(Click any where to start)"<<endl;
-getch();hj
+getch();
 }
 
 void stw(int h,int m,int s)
